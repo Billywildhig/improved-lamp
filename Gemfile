@@ -54,7 +54,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "solargraph"
+  gem "solargraph", ">= 0.49.0"
 
   gem "erb_lint"
 
@@ -64,7 +64,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
-  gem "hotwire-livereload", "~> 1.2"
+  gem "hotwire-livereload", "~> 1.3", ">= 1.3.0"
 end
 
 group :test do
